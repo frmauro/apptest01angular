@@ -25,7 +25,7 @@ else
   echo "No such container"
 fi
 
-cp -a /home/francisco/estudos/azuredevops/myagent/_work/5/s/.  /home/francisco/estudos/azuredevops/myagent/_work/r4/a/
+cp -a /home/francisco/estudos/azuredevops/myagent/_work/6/s/.  /home/francisco/estudos/azuredevops/myagent/_work/r5/a/
 
 echo "build the docker image"
 docker build -t apptest01angular .
