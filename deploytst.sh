@@ -34,6 +34,6 @@ echo "built docker images and proceeding to delete existing container"
 
 echo "Deploying the updated container"
 
-docker run -d -p 3000:3000 --name apptest01angular  apptest01angular
+docker run -d -p 8086:80 --name apptest01angular  apptest01angular
 
 echo "Deploying the container"
